@@ -85,12 +85,35 @@ As given by you, these are first and foremost analysis that I also thought of:
 
 ## My 3 key take aways:
 
-1. When is the Ford go bike used the most and by whom?
+_**1. When is the Ford go bike used the most and by whom?**_
+
+<img width="902" alt="screen shot 2018-06-10 at 2 36 53 am" src="https://user-images.githubusercontent.com/32205588/41200333-9a2b3912-6c57-11e8-842e-652f09499e41.png">
+
+
+The line plot of hour of the day against bike rental count categorize by day of the week shown above - shows the difference of rental demand for weekday and weekend in different hours. The rental count remains active later in the midnight during the weekend than weekday. We can also see that the bike rental count has a dip at around 12 P.M. during weekdays, whereas around the same time during weekends shows peak of demand of the day. The peak of demand during weekdays is around 8 A.M. in the morning and 4 to 5 P.M. in the afternoon, possibly due to people who want to go to work or are done working and in need of transportation to go home. 
+
+<img width="903" alt="screen shot 2018-06-10 at 2 45 36 am" src="https://user-images.githubusercontent.com/32205588/41200374-66094dc6-6c58-11e8-8f6f-015d55a26160.png">
+
+When bike rentals are plotted against weekdays and are categorized by type of user - we see that mazimum bikes are rented by subscribers in the weekdays and since we also found the popular times, we know that people going to work or coming back from work are the most popular users of this bike at these times. Therefore, more such people can be targetted through promotions and dicounts to attract more subscriptions.
 
 
 2. On which route is it used the most? 
 
-3. An idea on increasing subscriptions
+This is also a very inetersting insight because then we know the busiest routes and this can help us to have a count of minimum number of bikes that should be available of these stations. If we are able to determine the demand at a particular route, we can use other technologies to predict the demand and hence ammend our business model accordingly. 
+
+Now the station routes can be A to B and B to A as well, for this analysis I ahve taken these routes as two different directions rather than unidirectional because making it unidirection doesn't give us the exact number of rentals of either of stations.
+
+I applied group by on the combination of start station name and end station name and counted the index, since thats the only unique value I had, Thus this gave me number of rides for each route.
+
+3. An idea on increasing subscriptions:
+
+This data is almost close to get a closer look on the customers which are the main drivers of the revenue. Understanding users is the best and the most important thing when it comes to data analysis of something which involves demands of users and revenue of the company is directly proportional to that demand. The revenue model for Ford bike share is based on their subcription model, main revenue comes from subscriptions. Thus finding ways to increase the number of subcriptions will directly increase the revenue. 
+
+If I am given the user id of each user, I will be able to look at each user closely. Secondly, if I am also
+
+# Some additional Take aways:
+
+I have made a couple of graphs in tableau which give interesting insights like busiest day, clamest day, average trip duration, 80% of the customers are subsribers, ditribute of bike rentals over the year which also gives a seasonal demand idea, user demographics, yearly distribution with respect to type of user etc. Please have a look at my tableau workbook. 
 
 
 ## Aditional insights that can be found if gathered more data:
