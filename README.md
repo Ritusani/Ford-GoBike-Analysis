@@ -1,17 +1,18 @@
-# Ford-GoBike-Analysis
-Written Data Analysis Exercise
-
 # Bike Rental Data - Exploratory Analysis 
+_Written Data Analysis Exercise_
+
 ### By: Ritu Pardasani
 
-**Link to Tableau Public**
+**Link to Tableau Public** : https://public.tableau.com/profile/ritu.pardasani#!/vizhome/Fordgobike_Analysis/Ford-GobikeRentaAnalysis?publish=yes
 
-First and foremost step of data analysis is to look at the data. I downloaded the file and tried to look at the fields and see what kind of data I have been given. The dataset is called as "2017-fordgobike-tripdata" has following fields: 
+I created some visualizations in tableau and created a story. I have published the workbook on Tableau public forum (the link above will take you there). I have also uploaded the workbook in the github files, its called as "Fordgobike_Analysis.twb".
+
+First and foremost step of data analysis is to look at the data. I downloaded the file and tried to look at the fields and see what kind of data I have been given. The dataset is called as "2017-fordgobike-tripdata" has following fields:  
 
 
-Trip Duration (seconds)
+1. Trip Duration (seconds)<br>
 
-Start Time and Date
+2. Start Time and Date<br>
 
 End Time and Date
 
