@@ -7,38 +7,43 @@ _Written Data Analysis Exercise_
 
 I created some visualizations in tableau and created a story. I have published the workbook on Tableau public forum (the link above will take you there). I have also uploaded the workbook in the github files, its called as "Fordgobike_Analysis.twb".
 
-First and foremost step of data analysis is to look at the data. I downloaded the file and tried to look at the fields and see what kind of data I have been given. The dataset is called as "2017-fordgobike-tripdata" has following fields:  
+Also, I would like to share with you an analysis that I have done before on a similar data set. This dataset was also a bike rental data set with a few different data points. I have also applied machine learning algorithm to predict the demand of bike rentals. I hope you find it interesting. You can check out the [project here](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/8181352227773554/2637382646426183/8924879640601769/latest.html).
+
+Now coming to the dataset that I was given for this exercise. 
+First and foremost step of data analysis is to look at the data. I downloaded the file and tried to look at the fields and see what kind of data I have been given in excel format itself. I made a few transformations in formats here and there to understand the data. I used some filters and sorting to find unique values and to understand the purpose of fields like "bike_ID". I have uploaded a little transformed data set on git hub because I used the same in my python notebook. 
+
+The dataset is called as "2017-fordgobike-tripdata" has in total of 16 fields, shown as follows:  
 
 
 1. Trip Duration (seconds)<br>
 
 2. Start Time and Date<br>
 
-End Time and Date
+3. End Time and Date<br>
 
-Start Station ID
+4. Start Station ID<br>
 
-Start Station Name
+5. Start Station Name<br>
 
-Start Station Latitude
+6. Start Station Latitude<br>
 
-Start Station Longitude
+7. Start Station Longitude<br>
 
-End Station ID
+8. End Station ID<br>
 
-End Station Name
+9. End Station Name<br>
 
-End Station Latitude
+10. End Station Latitude<br>
 
-End Station Longitude
+12. End Station Longitude<br>
 
-Bike ID
+13. Bike ID<br>
 
-User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual)
+14. User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual)<br>
 
-Member Year of Birth
+15. Member Year of Birth<br>
 
-Member Gender
+16. Member Gender<br>
 
 The next step is to reasearch a bit on bike-share and understand what bike share business is about and how it works. Ford go bike is a company that provides on-demand bike rentals for customers in the bay area, that through San Francisco and San Jose. Users can unlock bikes from a variety of stations throughout each city, and return them to any station within the listed cities, thus making it a good option for one-way trips. People use bike share to commute to work or school, run errands, get to appointments or social engagements and more. It's a fun, convenient and affordable way to get around.
 
@@ -69,7 +74,26 @@ As given by you, these are first and foremost analysis that I also thought of:
 
 - User population descriptions
 
-## Aditional insights:
+
+- Some analysis on Users by calculating their age 
+
+
+- Most popular route 
+
+
+- Understanding bike rentals with respect to cities
+
+## My 3 key take aways:
+
+1. When is the Ford go bike used the most and by whom?
+
+
+2. On which route is it used the most? 
+
+3. An idea on increasing subscriptions
+
+
+## Aditional insights that can be found if gathered more data:
 
 Apart from these some of the following insights I would like to know from the data but for these I would need some additional data points such as user id to get specific information particularly for a specific user:
 
@@ -86,3 +110,4 @@ Also looking at the following insights would help us in understanding the using 
 
 - How many bikes are needed for each city? 
 
+Data points like user id of the user and more details on the user type can be very beneficial to the business as marketing and sales strategy can be modeled accordingly. 
